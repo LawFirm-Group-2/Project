@@ -1,43 +1,67 @@
 .nav-border {
     padding: 10px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     width: 100%;
     margin:10px;
 }
 
-ul {
+.centerTop ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
-li {
+.centerTop li {
     display: inline;
-    float: left;
-    border-right: 1px solid grey;
+    float:inherit;
+    border-right: 1px solid rgb(148, 148, 148);
 }
 
-li a {
-    padding: 0 40px;
+.centerTop li a {
+    padding: 0% 20px;
     margin: auto;
     text-decoration: none;
-    color: black;
+    color: black; 
 }
+
 li:last-child {
     border-right: none;
 }
 
-#redbox{
-    background-color: rgb(197, 46, 46);
+/* #redbox{
+    background-color: rgb(146, 39, 39);
+    color: #fff;
+    width: 80%;
+    height: 800px;
+    padding: 20px; */
 }
+/*<<<<<<< main
+=======*?
+.main-content{
+    -webkit-column-count: 3;
+    /* background-color: rgb(39, 146, 57);
+    column-count: 3;
+    column-rule-color: blueviolet;
+    column-rule-style: solid;
+    column-rule-width: 10px;
+    column-gap:1px; */
+    
+}
+/* #main-info{
+    margin-left: 0px; */
+    
+}
+#h3{
+    background-color: #fff;}
 
 
 hr{
     width: 90%;
     background-color: black;
 }
+
 h2 {
     font: 33px sans-serif;
     margin-top: 30px;
@@ -55,7 +79,7 @@ h2 {
     position: absolute;
     /* positioning must be absolute here, and relative positioning must be applied to the parent */
     top: 50%;
-    left: 0;
+    left:25;
     right:25%;
     bottom: 0;
     width: 60%;
@@ -67,16 +91,18 @@ h2 {
 /* to hide the lines from behind the text, you have to set the background color the same as the container */
     background-color:rgb(255, 255, 255);
     margin: 1px;
-    margin-left: 20px;
+    margin-left: 3px;
 /* background-color: lawngreen; */
 
 }
 span a{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);  
 }
+
 .centerTop ul li{
     margin-left: 25px;
 }
+
 
 #left-column{
     float: right;
@@ -97,3 +123,232 @@ image{
 
     
 }
+=======
+body {
+    background-image: url('https://www.welovesolo.com/wp-content/uploads/2014/10/p175aeururj346a0l5k1iq1130s9-details.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.page-container{
+    main
+    margin: 100px;
+    margin-top: 5px;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 100px;
+    margin-top: 40px;
+   
+background-color: #fff;
+
+}
+.footer-container{
+    padding: 10px;
+    border-top: 1px solid black;
+    width: 98%;
+    margin:10px;
+
+}
+#login-butt{
+    float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+    background-color: rgb(160, 160, 160);
+    border: none;
+}
+
+
+.leftRedBox{
+    background-color: rgb(131, 22, 22);
+    color: white;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 380px;
+
+}
+
+.leftRedBox p{
+    margin-left: 5%;
+    font-size:15px;
+}
+.leftRedBox h2{
+    font-size: 20px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-style: solid;
+    border-color: white;
+}
+.leftRedBox hr{
+    background-color: white;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 90%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.rightTextBox{
+    margin-left: 2%;
+}
+
+.column{
+    float: left;
+}
+.column hr{
+    width: 100%;
+    background-color: lightgray;
+    height: 1px;
+}
+
+.left{
+    width: 65%;
+    margin-bottom: 5%;
+}
+
+.right{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.row2:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-left span{
+    margin-right: 25%;
+    padding: 0px;
+}
+
+.col-right p{
+    list-style-type: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.whiteBackground{
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+jh1{
+    font: 18px sans-serif;
+    margin-bottom:0px;
+}
+jh2{
+    font: 14px sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+jh3{
+    font:12px sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+jh4{
+    font:14px sans-serif;
+    font-weight: lighter;
+}
+ jh5{
+    font:12px sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+} 
+.jleftpane {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background:linear-gradient(#923530,#772E28);
+    border-collapse: collapse;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+#jleftpane-image{
+border-style: solid;
+border-color: #fff;
+border-width: 2px;
+width: 175px;
+height: 100px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.jmiddlepane {
+    width: 50%;
+    height: 100%;
+    float: left;
+  
+    border-collapse: collapse;
+}
+#jmiddlepane-image{
+    padding: 2px;
+    border-style: solid;
+     border-width: 1px;
+    width: 400px;
+    height: 100px;
+    
+}
+.jmiddlepane-text{
+    margin-top: 25px;
+    margin-left: 5%;
+}
+.jrightpane {
+  width: 24%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background:linear-gradient(#D7CEC5,#DED7D1);
+  border-collapse: collapse;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#jrightpane-image{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    width: 175px;
+    height: 100px;
+
+
+}
+.jsecondborder{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin-left: 30px;
+    padding-left: 4px;
+width: 410px;
+    
+}
+/* .jflex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
+  } */
+
