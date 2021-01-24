@@ -78,4 +78,22 @@ span a{
     margin-left: 25px;
 }
 
+#left-column{
+    float: right;
+    padding: 10x;
+    border: 5px ; 
+    margin: 40px;
+    width: 300px;
+    height: 600px;
+    background-color:#923530;
+    text-align: justify;
+      
+}
+image{
+    float: right;
+    padding: 10px;
+    border: 20px;
+    border-style: double;
+
+    
 }
