@@ -6,27 +6,26 @@
     margin:10px;
 }
 
-
-ul {
+.centerTop ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255);
 }
 
-li {
+.centerTop li {
     display: inline;
     float:inherit;
     border-right: 1px solid rgb(148, 148, 148);
 }
 
-li a {
+.centerTop li a {
     padding: 0% 20px;
     margin: auto;
     text-decoration: none;
-    color: black;
-    
+    color: black; 
 }
+
 li:last-child {
     border-right: none;
 }
@@ -35,11 +34,11 @@ li:last-child {
     background-color: rgb(197, 46, 46);
 }
 
-
 hr{
     width: 90%;
     background-color: black;
 }
+
 h2 {
     font: 33px sans-serif;
     margin-top: 30px;
@@ -74,9 +73,9 @@ h2 {
 
 }
 span a{
-    color: rgb(0, 0, 0);
-    
+    color: rgb(0, 0, 0);  
 }
+
 .centerTop ul li{
     margin-left: 25px;
 }
@@ -88,15 +87,14 @@ body {
     background-size: cover;
   }
 .page-container{
-    
     margin: 100px;
     margin-top: 5px;
-background-color: #fff;
+    background-color: #fff;
 }
 .footer-container{
     padding: 10px;
     border-top: 1px solid black;
-     width: 98%;
+    width: 98%;
     margin:10px;
 
 }
@@ -106,4 +104,89 @@ background-color: #fff;
     margin-top: 0px;
     background-color: rgb(160, 160, 160);
     border: none;
+}
+
+.leftRedBox{
+    background-color: rgb(131, 22, 22);
+    color: white;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 380px;
+
+}
+
+.leftRedBox p{
+    margin-left: 5%;
+    font-size:15px;
+}
+.leftRedBox h2{
+    font-size: 20px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-style: solid;
+    border-color: white;
+}
+.leftRedBox hr{
+    background-color: white;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 90%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.rightTextBox{
+    margin-left: 2%;
+}
+
+.column{
+    float: left;
+}
+.column hr{
+    width: 100%;
+    background-color: lightgray;
+    height: 1px;
+}
+
+.left{
+    width: 65%;
+    margin-bottom: 5%;
+}
+
+.right{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.row2:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-left span{
+    margin-right: 25%;
+    padding: 0px;
+}
+
+.col-right p{
+    list-style-type: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.whiteBackground{
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
 }
