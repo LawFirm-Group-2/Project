@@ -31,10 +31,29 @@ li:last-child {
     border-right: none;
 }
 
-#redbox{
-    background-color: rgb(197, 46, 46);
+/* #redbox{
+    background-color: rgb(146, 39, 39);
+    color: #fff;
+    width: 80%;
+    height: 800px;
+    padding: 20px; */
 }
-
+.main-content{
+    -webkit-column-count: 3;
+    /* background-color: rgb(39, 146, 57);
+    column-count: 3;
+    column-rule-color: blueviolet;
+    column-rule-style: solid;
+    column-rule-width: 10px;
+    column-gap:1px; */
+    
+}
+/* #main-info{
+    margin-left: 0px; */
+    
+}
+#h3{
+    background-color: #fff;}
 
 hr{
     width: 90%;
@@ -69,7 +88,7 @@ h2 {
 /* to hide the lines from behind the text, you have to set the background color the same as the container */
     background-color:rgb(255, 255, 255);
     margin: 1px;
-    margin-left: 20px;
+    margin-left: 3px;
 /* background-color: lawngreen; */
 
 }
@@ -88,9 +107,14 @@ body {
     background-size: cover;
   }
 .page-container{
-    
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
     margin: 100px;
-    margin-top: 5px;
+    margin-top: 40px;
+   
 background-color: #fff;
 }
 .footer-container{
@@ -107,3 +131,106 @@ background-color: #fff;
     background-color: rgb(160, 160, 160);
     border: none;
 }
+jh1{
+    font: 18px sans-serif;
+    margin-bottom:0px;
+}
+jh2{
+    font: 14px sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+jh3{
+    font:12px sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+jh4{
+    font:14px sans-serif;
+    font-weight: lighter;
+}
+ jh5{
+    font:12px sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+} 
+.jleftpane {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background:linear-gradient(#923530,#772E28);
+    border-collapse: collapse;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+#jleftpane-image{
+border-style: solid;
+border-color: #fff;
+border-width: 2px;
+width: 175px;
+height: 100px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.jmiddlepane {
+    width: 50%;
+    height: 100%;
+    float: left;
+  
+    border-collapse: collapse;
+}
+#jmiddlepane-image{
+    padding: 2px;
+    border-style: solid;
+     border-width: 1px;
+    width: 400px;
+    height: 100px;
+    
+}
+.jmiddlepane-text{
+    margin-top: 25px;
+    margin-left: 5%;
+}
+.jrightpane {
+  width: 24%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background:linear-gradient(#D7CEC5,#DED7D1);
+  border-collapse: collapse;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#jrightpane-image{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    width: 175px;
+    height: 100px;
+
+
+}
+.jsecondborder{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin-left: 30px;
+    padding-left: 4px;
+width: 410px;
+    
+}
+/* .jflex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
+  } */
