@@ -103,6 +103,27 @@ span a{
     margin-left: 25px;
 }
 
+
+#left-column{
+    float: right;
+    padding: 10x;
+    border: 5px ; 
+    margin: 40px;
+    width: 300px;
+    height: 600px;
+    background-color:#923530;
+    text-align: justify;
+      
+}
+image{
+    float: right;
+    padding: 10px;
+    border: 20px;
+    border-style: double;
+
+    
+}
+=======
 body {
     background-image: url('https://www.welovesolo.com/wp-content/uploads/2014/10/p175aeururj346a0l5k1iq1130s9-details.jpg');
     background-repeat: no-repeat;
