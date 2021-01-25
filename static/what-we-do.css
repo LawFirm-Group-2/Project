@@ -1,21 +1,14 @@
-.nav-border {
-    padding: 5px ;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    margin:10px;
-}
-
 li {
     /* display: inline; */
     list-style-type: none;
-    /* margin-left: 0px; */
+    margin-left: 0px;
 }
 
 li a {
     padding: 0 60px;
     text-decoration: none;
     color: black;
-    border-right: 1px solid grey;
+    /* border-right: 1px solid grey; */
 }
 
 li:last-child {
@@ -43,7 +36,7 @@ h2 {
 .bottom-text:before {
     content: "";
     margin: 0 auto;
-    /* this centers the line to the full width specified */
+    /* this centers the line to the full width specified
     position: absolute;
     /* positioning must be absolute here, and relative positioning must be applied to the parent */
     top: 50%;
@@ -66,12 +59,13 @@ h2 {
 span a{
     color: rgb(0, 0, 0);
 }
-/* .centerTop ul li{
+.centerTop ul li{
     margin-left: 25px;
-} */
+}
 
 section {
-    background-color: brown;
+    background:linear-gradient(#923530,#772E28);
+    /* background-color: brown; */
     margin: 0px;
 }
 
@@ -95,7 +89,10 @@ section {
 }
   
 body {
-    font-size: 12px;
+    background-image: url('https://www.welovesolo.com/wp-content/uploads/2014/10/p175aeururj346a0l5k1iq1130s9-details.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 hr.divider {
@@ -103,8 +100,25 @@ hr.divider {
     margin-top: 0px;
 }
 
+.container {
+    margin-left: 10px;
+}
+
 .container1 {
     text-align: left;
     padding: 10px;
     margin-top: 5px;
 }
+
+.page-container{
+    margin: 100px;
+    margin-top: 5px;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 100px;
+    margin-top: 40px;
