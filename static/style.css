@@ -36,7 +36,6 @@ li:last-child {
     width: 80%;
     height: 800px;
     padding: 20px; */
-}
 /*<<<<<<< main
 =======*?
 .main-content{
@@ -48,11 +47,11 @@ li:last-child {
     column-rule-width: 10px;
     column-gap:1px; */
     
-}
+
 /* #main-info{
     margin-left: 0px; */
     
-}
+
 #h3{
     background-color: #fff;}
 
@@ -121,10 +120,8 @@ image{
     padding: 10px;
     border: 20px;
     border-style: double;
-
-    
 }
-=======
+
 body {
     background-image: url('https://www.welovesolo.com/wp-content/uploads/2014/10/p175aeururj346a0l5k1iq1130s9-details.jpg');
     background-repeat: no-repeat;
@@ -132,7 +129,6 @@ body {
     background-size: cover;
   }
 .page-container{
-    margin: 100px;
     margin-top: 5px;
     background-color: #fff;
     display: flex;
@@ -140,11 +136,10 @@ body {
     padding-top: 0px;
     padding-left: 5%;
     padding-right: 5%;
-    margin: 100px;
     margin-top: 40px;
-   
-background-color: #fff;
-
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
 }
 .footer-container{
     padding: 10px;
@@ -197,6 +192,8 @@ background-color: #fff;
     display: flex;
     margin-top: 2%;
     margin-bottom: 5%;
+    max-width: 100%;
+    
 }
 
 .rightTextBox{
@@ -293,7 +290,7 @@ jh4{
 border-style: solid;
 border-color: #fff;
 border-width: 2px;
-width: 175px;
+width: 220px;
 height: 100px;
 margin-top: 10px;
 margin-bottom: 10px;
@@ -304,13 +301,13 @@ margin-bottom: 10px;
     height: 100%;
     float: left;
   
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
 }
 #jmiddlepane-image{
     padding: 2px;
     border-style: solid;
      border-width: 1px;
-    width: 400px;
+    width: 500px;
     height: 100px;
     
 }
@@ -332,19 +329,21 @@ margin-bottom: 10px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-width: 1px;
-    width: 175px;
+    width: 225px;
     height: 100px;
 
 
 }
 .jsecondborder{
+    border-width: 1px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     padding-bottom: 4px;
     padding-top: 4px;
     margin-left: 30px;
     padding-left: 4px;
-width: 410px;
+    margin-right: 20px;
+width: 510px;
     
 }
 * .jflex-wrapper {
@@ -365,33 +364,75 @@ width: 410px;
       
 }
   .dleftpane {
-      width: 70%;
-      height: 100%;
-      float: left;
-      background-color: rosybrown;
-      border-collapse: collapse;
+    width: 656px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
   }
-  
+
   .dmiddlepane {
-      width: 50%;
+      width: 25%;
       height: 100%;
-      float: left;
+      float: right;
       background-color: royalblue;
       border-collapse: collapse;
   }
   
   .drightpane {
-    width: 25%;
-    height: 100%;
+    width: %;
+    height: 300px;
     position: relative;
-    float: right;
-    background-color: yellow;
+    background:linear-gradient(#923530,#772E28);
     border-collapse: collapse;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
   }
-  
+
   .dtoppane {
     width: 100%;
     height: 100px;
     border-collapse: collapse;
     background-color: #4da6ff;
   }
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+ 
+#dimage{
+width: 300px;
+height: 75px;
+}
+/* #dleftcontainer{
+    border-style: solid;
+    border-color: black;
+    
+} */
+/* .dleftpanel {
+    width: 50%;
+    height: 100%;
+  border-style: solid;
+    border-collapse: collapse;
+} */
+.dsecondborder{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-left: 30px;
+    padding-left: 7px;
+    margin-right: 20px;
+width: 665px;}
+
+#jimage{
+    width: 300px;
+    height: 75px;}
